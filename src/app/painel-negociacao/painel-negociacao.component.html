@@ -1,0 +1,13 @@
+<table>
+  <tr>
+    <th>Descrição</th>
+    <th>Prospecto</th>
+    <th>Valor</th>
+  </tr>
+
+  <tr *ngFor="let oportunidade of oportunidades">
+    <td>{{ oportunidade.descricao }}</td>
+    <td>{{ oportunidade.prospecto }}</td>
+    <td>{{ oportunidade.valor }}</td>
+  </tr>
+</table>
